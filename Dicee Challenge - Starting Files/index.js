@@ -13,7 +13,7 @@ var image1 = document.querySelectorAll("img")[1];
 image1.setAttribute("src", imageSelector2);
 
 if (numberSelector1 > numberSelector2){
-  document.querySelector("h1").innerHTML = " 🚩Player 1 Wins ";
+  document.querySelector("h1").innerHTML = " Player 1 Wins 🚩";
 }
 else if (numberSelector2 > numberSelector1){
   document.querySelector("h1").innerHTML = "Player 2 Wins 🚩";
